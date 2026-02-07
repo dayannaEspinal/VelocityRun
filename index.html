@@ -6,7 +6,71 @@
     <title>Velocity Run</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="rsc/logo.png" alt="LogoVelocityRun" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarVelocity" aria-controls="navbarVelocity"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarVelocity">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#catalogo">Catálogo</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonio">Atletas</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <a href="#catalogo" class="btn btn-primary ms-lg-3">
+                    Comprar Ahora
+                </a>
+            </div>
+
+        </div>
+    </nav>
+</header>
+    <section id="hero">
+        <div id="carouselVelocity" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="rsc/modelo1.png" class="d-block w-100" alt="modelo1">
+                <div class="carousel-caption">
+                    <h2>Velocity X-Pro</h2>
+                    <p class="fs-4">$129.99</p>
+                    <p>Corre como los campeones</p>
+                    <a href="#catalogo" class="btn btn-primary">Comprar Ahora</a>
+                </div>
+            </div>
+    
+        <div class="carousel-item">
+                <img src="rsc/modelo2.jpg" class="d-block w-100" alt="modelo2">
+                <div class="carousel-caption">
+                    <h2>Velocity Flex</h2>
+                    <p class="fs-4">$109.99</p>
+                    <p>Tecnología que impulsa tu récord</p>
+                    <a href="#catalogo" class="btn btn-primary">Comprar Ahora</a>
+                </div>
+            </div>
+    </section>
+    
+</body>
