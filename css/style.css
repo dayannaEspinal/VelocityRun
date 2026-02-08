@@ -1,0 +1,59 @@
+/* Fuente general */
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Cards de productos */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Badge flotante */
+.badge-custom {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #0d6efd;
+}
+
+/* Sección testimonio */
+.testimonial {
+    background: url("https://images.unsplash.com/photo-1546483875-ad9014c88eba") center/cover no-repeat;
+    color: white;
+}
+
+/* Capa oscura sobre imagen */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Carrusel */
+.carousel-item img {
+    height: 80vh;
+    object-fit: cover;
+}
+
+/* Texto del carrusel */
+.carousel-caption {
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
